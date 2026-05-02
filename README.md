@@ -1,3 +1,5 @@
+portfolio link : https://canva.link/ho9agaxjxbx3huq
+
 Overview of the website 
 
 I designed this website for a small bakery shop. It’s simple and interactive, featuring warm colours and standout text.
