@@ -68,6 +68,168 @@ In this website I have used HTML for structure, CSS for styling, and JavaScript 
 
 #style.css
 
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f9f9f9;
+}
+
+
+header {
+    background-color: #793f2e;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header img.logo {
+    height: 48%;
+    vertical-align: middle;
+}
+    @media (mx-width: 768px) {
+        img {
+            width: 100%;
+
+        }
+
+    }
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    margin: 20px;
+    text-align: center;
+}
+
+.hero {
+    background-color: #e2d3c0;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.features .cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.features .cards div {
+    width: 50%;
+    padding: 20px;
+    background-color: rgb(248, 238, 238);
+   
+}
+
+#filter-buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#filter-buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #ca955d;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+#filter-buttons button:hover {
+    background-color: #d0a218;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+.logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(233, 209, 209);
+    text-decoration: none;
+}
+
+
+
+
+.offers {
+    padding: 20px;
+}
+
+.offer-item {
+    background-color: rgba(245, 203, 182, 0.618);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(227, 25, 25, 0.918);
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.offer-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Blinking effect */
+@keyframes blink {
+    0%, 50%, 100% {
+        opacity: 1;
+    }
+    25%, 75% {
+        opacity: 0;
+    }
+}
+
+.blinking {
+    animation: blink 1s infinite;
+}
+
+.contact-h2 
+
+/* Blinking effect */
+@keyframes blink {
+    0%, 50%, 100% {
+        opacity: 1;
+    }
+    25%, 75% {
+        opacity: 0;
+    }
+}
 
 
 ...................................................................................................................
