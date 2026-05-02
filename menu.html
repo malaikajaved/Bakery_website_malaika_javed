@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <img src="bakery_logo.png" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="offers.html">Offers</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Our Delicious Menu</h1>
+        <div id="filter-buttons">
+            <button oneclick="filterMenu('all')">All</button>
+            <button oneclikc="filterMenu('breads')">Breads</button>
+            <button oneclick="filterMenu('pastries')">Pastries</button>
+            <button oneclick="filterMenu('cakes')">Cakes</button>
+    
+        </div>
+        
+        <section class="menu-items">
+            
+            <article class="menu-item breads">
+
+    
+                <h2>Breads</h2>
+               
+                <ul>
+                    <li>Baguette</li>
+                    <li>Whole Wheat</li>
+                    <li>Rye Bread</li>
+                </ul>
+            </article>
+            <article class="menu-item pastries">
+                <h2>Pastries</h2>
+                <ul>
+                    <li>Croissant</li>
+                    <li>Apple Pie</li>
+                    <li>Cinnamon Rolls</li>
+                </ul>
+            </article>
+            <article class="menu-item cakes">
+                <h2>Cakes</h2>
+                <ul>
+             <li>Chocolate Cake</li>
+             <li>Cheesecake</li>
+             <li>Carrot Cake</li>
+                </ul>
+            <p1>
+                Checkout our baked goodness, deliciously made just for you in the Gallery section
+            </p1>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Bakery Shop. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
